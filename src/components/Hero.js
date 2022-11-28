@@ -3,7 +3,7 @@ import heroImg1 from "../assets/imgs/hero-img-1.jpg";
 const Hero = () => {
   return (
     <div className="hero-bg bg-teal-50 min-h-screen">
-      <div className="hero container mx-auto py-32 grid grid-cols-5 gap-5">
+      <div className="hero container mx-auto py-16 grid grid-cols-5 gap-5">
         <div className="hero-l col-span-3 flex flex-col gap-5">
           <h3 className="uppercase font-bold text-sm tracking-widest text-teal-500">
             Winter' 22
