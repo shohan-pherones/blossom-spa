@@ -12,7 +12,7 @@ const Features = () => {
       <div className="features grid grid-cols-4 gap-5">
         {/* Feature 1 */}
         <div className="feature flex flex-col gap-2">
-          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-5 text-orange-800">
+          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-8 text-orange-800">
             <MdOutlineBathtub />
           </span>
           <h3 className="main-headline text-3xl">Comfortable</h3>
@@ -23,7 +23,7 @@ const Features = () => {
 
         {/* Feature 2 */}
         <div className="feature flex flex-col gap-2">
-          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-5 text-orange-800">
+          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-8 text-orange-800">
             <IoFastFoodOutline />
           </span>
           <h3 className="main-headline text-3xl">Free Snacks</h3>
@@ -34,7 +34,7 @@ const Features = () => {
 
         {/* Feature 3 */}
         <div className="feature flex flex-col gap-2">
-          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-5 text-orange-800">
+          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-8 text-orange-800">
             <IoMdBook />
           </span>
           <h3 className="main-headline text-3xl">Easy Booking</h3>
@@ -43,7 +43,7 @@ const Features = () => {
 
         {/* Feature 4 */}
         <div className="feature flex flex-col gap-2">
-          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-5 text-orange-800">
+          <span className="w-14 h-14 bg-orange-200 rounded-full flex justify-center items-center text-3xl mb-8 text-orange-800">
             <MdOutlineTrain />
           </span>
           <h3 className="main-headline text-3xl">Easy Access</h3>

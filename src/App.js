@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Sponsored from "./components/Sponsored";
 import Features from "./components/Features";
+import Subscribe from "./components/Subscribe";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Sponsored />
       <Features />
+      <Subscribe />
     </div>
   );
 };
