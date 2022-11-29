@@ -2,8 +2,8 @@ import { logos } from "../data/logos";
 
 const Sponsored = () => {
   return (
-    <section className="sponsored text-center py-32">
-      <h3 className="section-title uppercase font-bold text-sm tracking-widest text-gray-500/50 mb-8">
+    <section className="sponsored text-center py-20">
+      <h3 className="section-title uppercase font-bold text-sm tracking-widest mb-5 opacity-50">
         Featured in
       </h3>
       <div className="sponsors flex gap-16 items-center justify-center">

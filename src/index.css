@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Gyahegi";
+  src: url("./assets//fonts/Gyahegi.otf");
+}
 
 html,
 body {
@@ -15,6 +19,6 @@ body {
 }
 
 .main-headline {
-  font-family: "Playfair Display", serif;
-  line-height: 1.1;
+  font-family: "Gyahegi", serif;
+  line-height: 1.7;
 }
