@@ -4,6 +4,7 @@ import Sponsored from "./components/Sponsored";
 import Services from "./components/Services";
 import Features from "./components/Features";
 import Subscribe from "./components/Subscribe";
+import Packages from "./components/Packages";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <Sponsored />
       <Services />
+      <Packages />
       <Features />
       <Subscribe />
     </div>
