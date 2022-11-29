@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Sponsored from "./components/Sponsored";
+import Services from "./components/Services";
 import Features from "./components/Features";
 import Subscribe from "./components/Subscribe";
 
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Sponsored />
+      <Services />
       <Features />
       <Subscribe />
     </div>
