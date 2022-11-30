@@ -1,10 +1,10 @@
 import heroImg1 from "../assets/imgs/hero-img-1.jpg";
 
-const Hero = ({ heroRef }) => {
+const Hero = () => {
   return (
-    <div className="hero-bg bg-teal-100/50" ref={heroRef}>
-      <div className="hero container mx-auto py-16 grid grid-cols-5 gap-5">
-        <div className="hero-l col-span-3 flex flex-col gap-5">
+    <div className="hero-bg bg-teal-100/50">
+      <div className="hero container mx-auto py-16 grid grid-cols-1 lg:grid-cols-5 gap-5">
+        <div className="hero-l lg:col-span-3 flex flex-col gap-5 items-center lg:items-start text-center lg:text-left">
           <h3 className="uppercase font-bold text-sm tracking-widest text-rose-400">
             Winter' 22
           </h3>
@@ -18,7 +18,7 @@ const Hero = ({ heroRef }) => {
           </p>
           <a
             href="#"
-            className="bg-gradient-to-br from-teal-500 to-teal-600 self-start text-teal-50 py-3 px-5 mt-5 rounded-full shadow-xl shadow-teal-200/50"
+            className="bg-gradient-to-br from-teal-500 to-teal-600 lg:self-start text-teal-50 py-3 px-5 mt-5 rounded-full shadow-xl shadow-teal-200/50"
           >
             Start beautify today
           </a>
@@ -26,7 +26,7 @@ const Hero = ({ heroRef }) => {
             So what are you waiting for? Register today and book an appointment
             with us anytime from anywhere.
           </p>
-          <div className="followers flex gap-5 items-center mt-14">
+          <div className="followers flex gap-5 items-center my-5 lg:my-0 lg:mt-14">
             <p className="font-medium">
               We are loved by <span className="text-rose-400">10,000+</span>{" "}
               happy beauties
@@ -50,8 +50,8 @@ const Hero = ({ heroRef }) => {
             </div>
           </div>
         </div>
-        <div className="hero-r col-span-2 flex justify-end">
-          <div className="img w-[80%] overflow-hidden rounded-tl-full rounded-tr-full">
+        <div className="hero-r col-span-2 flex justify-center lg:justify-end">
+          <div className="img md:w-[80%] overflow-hidden rounded-tl-full rounded-tr-full">
             <img
               src={heroImg1}
               alt="Calm black woman standing with flowers after spa procedure"

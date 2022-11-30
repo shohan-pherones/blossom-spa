@@ -22,15 +22,3 @@ body {
   font-family: "Gyahegi", serif;
   line-height: 1.7;
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
-  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}

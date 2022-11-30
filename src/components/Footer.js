@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <footer className="bg-teal-50 text-gray-400">
       <div className="footer-content container mx-auto py-10 border-t border-gray-500/25">
-        <div className="footer-items flex gap-10 justify-between items-start">
+        <div className="footer-items flex flex-wrap gap-10 lg:justify-between items-start">
           <div className="footer-one flex flex-col gap-1">
             <h2 className="logo flex items-center gap-2 text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-teal-400 to-teal-700 mb-2">
               <BsFlower1 className="text-teal-500" /> Blossom Spa
             </h2>
-            <p className="w-3/5">
+            <p className="w-4/5 lg:w-3/5">
               Get the amazing spa and beauty facilities at your location
             </p>
             <p>Call us: +123 456 789</p>

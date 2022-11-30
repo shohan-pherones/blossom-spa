@@ -9,7 +9,7 @@ const Gallery = () => {
         <h3 className="section-title uppercase font-bold text-sm tracking-widest mb-10 text-center">
           Watch our reels
         </h3>
-        <div className="gallery grid grid-cols-2 gap-10 items-start">
+        <div className="gallery grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           <div className="gallery-l grid grid-cols-4 gap-3">
             {gallery.map((img) => (
               <div
@@ -25,16 +25,16 @@ const Gallery = () => {
             ))}
           </div>
           <div className="gallery-r flex flex-col gap-5">
-            <h2 className="main-headline text-3xl mb-5 w-4/5">
+            <h2 className="main-headline text-3xl mb-5 lg:w-4/5">
               Enjoy our amazing stories, and have fun
             </h2>
-            <p className="opacity-60 w-4/5">
+            <p className="opacity-60 lg:w-4/5">
               This time, we've gathered the most beautiful moments of your life.
               Enjoy the best spa experience that only we can offer you. Enjoy
               our amazing massage and get a relaxing facial treatment which will
               make you feel like a queen. You deserve it!
             </p>
-            <p className="opacity-60 w-4/5">
+            <p className="opacity-60 lg:w-4/5">
               When you're looking for a relaxing, rejuvenating experience, look
               no further! Check out this beauty video with all sorts of great
               tips, tricks, and advice for keeping your skin looking fresh &

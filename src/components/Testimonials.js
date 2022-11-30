@@ -14,18 +14,18 @@ const Testimonials = () => {
       <h2 className="main-headline text-3xl mb-20 text-center">
         Meet our happy customers
       </h2>
-      <div className="testimonials grid grid-cols-2 gap-10">
-        <div className="testimonials-l flex flex-col gap-5">
-          <h2 className="main-headline text-3xl mb-5 w-4/5">
+      <div className="testimonials grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="testimonials-l flex flex-col gap-5 row-start-2 lg:row-start-auto">
+          <h2 className="main-headline text-3xl mb-5 lg:w-4/5">
             We want you to come in to share in the joy of being yourself.⁣
           </h2>
-          <p className="opacity-60 w-4/5">
+          <p className="opacity-60 lg:w-4/5">
             We are excited to introduce to you the spa industry, where our
             AI-powered beauty assistant might be just what they need. With our
             beauty assistant, spas can stay up-to-date with their content
             strategy, boost client engagement and generate new leads.
           </p>
-          <p className="opacity-60 w-4/5">
+          <p className="opacity-60 lg:w-4/5">
             The spa industry is booming as people are striving for well-being
             and self-improvement. Unfortunately, many spas struggle with
             consistency in their content strategy and lack of time to generate

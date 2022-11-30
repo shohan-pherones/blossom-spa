@@ -9,7 +9,7 @@ const Features = () => {
         Why choose us
       </h3>
       <h2 className="main-headline text-3xl mb-20">Features that we provide</h2>
-      <div className="features grid grid-cols-4 gap-5">
+      <div className="features grid grid-cols-2 lg:grid-cols-4 gap-5 gap-y-10 lg:gap-y-0">
         {/* Feature 1 */}
         <div className="feature flex flex-col gap-3">
           <span className="w-14 h-14 bg-rose-200 rounded-full flex justify-center items-center text-3xl mb-5 text-rose-500">
