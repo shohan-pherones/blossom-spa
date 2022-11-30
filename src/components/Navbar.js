@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 import { BsFlower1 } from "react-icons/bs";
 
 const Navbar = () => {
@@ -9,33 +10,35 @@ const Navbar = () => {
         </h2>
         <ul className="links flex gap-7 text-lg">
           <li>
-            <a href="#">Home</a>
+            <NavLink end to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="#">Services</a>
+            <NavLink to="services">Services</NavLink>
           </li>
           <li>
-            <a href="#">Packages</a>
+            <NavLink to="packages">Packages</NavLink>
           </li>
           <li>
-            <a href="#">Gallery</a>
+            <NavLink to="gallery">Gallery</NavLink>
           </li>
           <li>
-            <a href="#">Testimonials</a>
+            <NavLink to="testimonials">Testimonials</NavLink>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <NavLink to="contact">Contact</NavLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <NavLink to="about">About</NavLink>
           </li>
         </ul>
-        <a
-          href="#"
+        <Link
+          to="sign-up"
           className="bg-gradient-to-br from-teal-500 to-teal-600 self-start text-teal-50 py-3 px-5 rounded-full shadow-xl shadow-teal-200/50"
         >
           Sign up
-        </a>
+        </Link>
       </nav>
     </header>
   );
