@@ -7,10 +7,10 @@ import Gallery from "./Gallery";
 import Testimonials from "./Testimonials";
 import Subscribe from "./Subscribe";
 
-const Home = () => {
+const Home = ({ heroRef }) => {
   return (
     <>
-      <Hero />
+      <Hero heroRef={heroRef} />
       <Sponsored />
       <Services />
       <Packages />

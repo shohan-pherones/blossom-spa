@@ -1,3 +1,5 @@
+import { useRef } from "react";
+import { useStickyNav } from "./hooks/useStickyNav";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -12,12 +14,17 @@ import NotFound from "./components/NotFound";
 import Footer from "./components/Footer";
 
 const App = () => {
+  const navbarRef = useRef(null);
+  const heroRef = useRef(null);
+
+  useStickyNav(navbarRef, heroRef);
+
   return (
     <>
       <div className="app bg-teal-50 text-gray-500 min-h-screen text-xl">
-        <Navbar />
+        <Navbar navbarRef={navbarRef} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home heroRef={heroRef} />} />
           <Route path="services" element={<Services />} />
           <Route path="packages" element={<Packages />} />
           <Route path="gallery" element={<Gallery />} />
