@@ -7,6 +7,7 @@ import Subscribe from "./components/Subscribe";
 import Packages from "./components/Packages";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Packages />
         <Features />
         <Gallery />
+        <Testimonials />
         <Subscribe />
       </div>
       <Footer />

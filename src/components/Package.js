@@ -9,7 +9,7 @@ const Package = ({ packageItem }) => {
     });
 
   return (
-    <div className="package w-96 shadow-md bg-white/50 rounded-lg overflow-hidden">
+    <div className="package w-96 shadow-md bg-white rounded-lg overflow-hidden">
       <div className="img w-96">
         <img src={packageItem.img} alt={packageItem.title} />
       </div>
